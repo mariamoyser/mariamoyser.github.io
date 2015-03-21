@@ -1,0 +1,56 @@
+body{
+	background-color: #fffef2;
+	color: #323232;
+	font-family: sans-serif;
+	text-align: center;
+	}
+
+h1{
+	text-transform: uppercase;
+	color: #f51d25;
+	font-weight: 500;
+	margin-top: 40px;
+	font-size:40px;
+	font-family: Megrim;
+	}
+
+a{
+	text-decoration: none;
+	color: #fffef2;
+	background-color: #000000;
+	padding: 7px;
+	font-size: 14px;
+	}
+
+p{
+	font-size:16px;
+	margin-top: 30px;
+	line-height: 25px;
+	}
+
+hr{ 
+
+}
+
+ul{
+	display: inline-block;
+	font-size: 16px;
+
+}
+
+
+#slogan {
+	font-style:italic;
+	font-size: 22px;
+	font-weight: lighter;
+	margin-top: 25px
+	}
+
+#list {
+	margin-top: 20px;
+	text-align: center;
+	}
+
+#contact {
+	margin-top: 30px;
+	}
