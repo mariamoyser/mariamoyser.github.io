@@ -1,13 +1,13 @@
 body{
-	background-color: #fffef2;
-	color: #323232;
+	background-color: #f2f7f8;
+	color: #2a1f22;
 	font-family: sans-serif;
 	text-align: center;
 	}
 
 h1{
 	text-transform: uppercase;
-	color: #f51d25;
+	color: #2a1f22;
 	font-weight: 500;
 	margin-top: 40px;
 	font-size:40px;
@@ -16,8 +16,8 @@ h1{
 
 a{
 	text-decoration: none;
-	color: #fffef2;
-	background-color: #000000;
+	color: #f2f7f8;
+	background-color: #2a1f22;
 	padding: 7px;
 	font-size: 14px;
 	}
