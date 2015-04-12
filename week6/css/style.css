@@ -1,3 +1,5 @@
+/* would like advice for how to best put in order the below rules */
+
 body {background-color: #ebeaea;
 	color:#434444;
 	font-size: 18px;
@@ -6,6 +8,8 @@ body {background-color: #ebeaea;
 	font-weight: 300;
 	line-height: 1.5em;
 	}
+
+/* wasn't able to figure out how to put in a background image for the header */
 
 header {background-color: #7c97a1;
 	}
@@ -16,7 +20,7 @@ nav {font-size: .9em;
 nav a {background-color: #434444;
 	display: block;
 	text-decoration: none;
-	color: #f7f7f7;
+	color: #b5b5b5;
 	float: left;
 	line-height: 2.5em;
 	font-weight: 300;
@@ -35,6 +39,19 @@ h1 {font-family: Dosis, Sans-Serif;
 	margin: 0;
 	}
 
+/* should I make h1 a link on the home page or type this out again like below? */
+
+h1 a {font-family: Dosis, Sans-Serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-decoration: none;
+	text-align: center;
+	color:#f7f7f7;
+	font-weight: normal;
+	padding: 2em 0em 0.8em 0em;
+	margin: 0;
+	}
+
 h2 {font-size:1em;
 	font-weight: 300;
 	color:#f7f7f7;
@@ -46,11 +63,13 @@ h2 {font-size:1em;
 	margin: 0;
 	}
 
+
 h3 {font-weight: 400;
 	padding: 0;
 	font-size: 1em;
 	margin: 0.5em 0 0 0;
 	}
+
 
 h4 {font-weight: 300;
 	padding: 0;
@@ -59,13 +78,61 @@ h4 {font-weight: 300;
 	font-style: italic;
 	}
 
-.clearfix:after {
-	visibility: hidden;
+/* Question - why didn't "h3 a" work as a selector for below? */
+
+.link {font-weight: 400;
+	padding: 0;
+	font-size: 1em;
+	margin: 0.5em 0 0 0;
+	text-decoration: none;
+	color: #434444;
+	}
+
+/* I couldn't float: left in .projectlink, I had to make a separate #project rule, not sure why */
+
+.projectlink {font-weight: 400;
+	padding: 0;
+	font-size: 1em;
+	margin: 0.5em 0 0 0;
+	text-decoration: none;
+	color: #434444;
 	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+	text-align: left;
+	}
+
+#projects {float:left;
+	padding-left: 4em;
+	padding-top: 5em;
+	}
+
+#projectimg {float:left;
+	padding-top: 5em;
+	padding-left:4em;
+	padding-bottom: 4em;
+	}
+
+#description {float:right;
+	width: 20%;
+	text-align: left;
+	padding-top: 5em;
+	padding-right: 4em;
+	margin-top: .5em;
+	}
+
+#highlight {background-color: #d7e3e8;
+	}
+
+h1 a:hover {color: #f7f7f7;
+	}
+
+nav a:hover {color: #f7f7f7;
+	}
+
+a:hover {color: #7c97a1;
+	}
+
+
+#current {color: #f7f7f7;
 	}
 
 .wrapper {
@@ -82,6 +149,15 @@ h4 {font-weight: 300;
 .row2 {float:left;
 	padding: 1em 0em 3em 0em;
 	width: 341.66px;
+	}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 	}
 
 #hr1 {height: 2px;
