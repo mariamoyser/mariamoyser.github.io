@@ -402,10 +402,9 @@ h4 {font-weight: 300;
 	#projectimg img {width: 70%;
 		}
 
-	#description {width: 70%;
-		text-align: left;
-		padding: 1em 15% 1em 15%;
-		text-align: center;
+	#description {width: 68%;
+		padding: 1em 16% 1em 16%;
+		text-align: justify;
 		}
 	}
 
@@ -418,8 +417,8 @@ h4 {font-weight: 300;
 		}
 
 	#description {
-		width: 90%;
-		padding: .5em 5% 1em 5%;
+		width: 86%;
+		padding: .5em 7% 1em 7%;
 
 	}
 
