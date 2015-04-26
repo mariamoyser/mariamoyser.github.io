@@ -229,6 +229,11 @@ h4 {font-weight: 300;
 
 /* RESPONSIVE */	
 
+@media only screen and (min-width: 1025px) {
+	.wrapper {width: 1026px;
+		}
+	}
+
 @media only screen and (max-width: 1025px) {
 
 	.wrapper {width: 100%;
