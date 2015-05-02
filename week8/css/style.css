@@ -32,6 +32,7 @@ nav a {background-color: #434444;
 	line-height: 2.5em;
 	font-weight: 300;
 	width: 25%;
+	margin: ;
 	}
 
 nav a:hover {color: #f7f7f7;
@@ -108,6 +109,9 @@ h2 {font-size:1em;
 	}
 
 #emailme {width: 33%;
+	}
+
+#emailme img {width: 10em;
 	}
 
 .social {padding: 0 2%;
@@ -228,6 +232,18 @@ h4 {font-weight: 300;
 
 /* RESPONSIVE */	
 
+/* RESPONSIVE - PROJECT PAGE */
+
+@media only screen and (max-width: 1137px) {
+	#description {padding-right: 7%
+		}
+
+	#projects {padding-left: 7%;
+		}
+	}
+
+/* RESPONSIVE - GENERAL & HOME PAGE */
+
 @media only screen and (min-width: 1025px) {
 	.wrapper {width: 1026px;
 		}
@@ -247,115 +263,16 @@ h4 {font-weight: 300;
 		padding-bottom: 2em;
 		}
 
-	.row {float:left;
-		padding: 1em 0em 1em 0em;
-		width: 50%;
-		}
-
 	}
 
-@media only screen and (max-width: 715px) {
+/* RESPONSIVE - HOME PAGE */
 
-	h1 {padding-top: 1em;
-		padding-bottom: 1em;
-		}
-	
-	h2 {display: none;
-		}
-
-	h3 {font-size: 1.1em;
-		}
-
-	h4 {font-size: 1em;
-		}
-
-	#hr1 {display: none;
-		}
+@media only screen and (max-width: 830px) {
 
 	.row img {width: 80%
 		}
 
-	.footer {float: none;
-		margin: auto;
-		line-height: 2em;
-		padding: 1em 0;
-		}
-
-	#intouch {display: none;
-		}
-
-	#socialgroup {
-		width: 26%;
-		padding: 0em 0em 1em 0em;
-		}
-
-	#emailme {width: 33%;
-		padding-top: 2em;
-		}
-
-	.social {padding: 0 3%;
-		}
-
-	#copyright {text-align: center;
-		padding: 0;
-		}
-
-	}
-
-@media only screen and (max-width: 550px) {
-
-	.row {width: 100%;
-		margin: auto;
-			}
-
-	.row img {width: 75%
-		}
-
-	#emailme {width: 60%;
-		}
-
-	#socialgroup {
-		width: 50%;
-		}
-	}
-
-@media only screen and (max-width: 400px) {
-
-	h1 {padding: .75em 0;
-		}
-
-	nav {padding-bottom: 4em;
-		}
-
-
-	.row img{ width: 80%;
-		}
-
-	.row {padding: 1em 0 0 0;}
-		}
-
-	#hr2 {width: 10em;
-		}
-	}
-
-@media only screen and (max-width: 320px) {
-
-	.wrapper {width: 320px;
-		}
-
-	}
-
-/* RESPONSIVE FOR PROJECT PAGE*/
-
-@media only screen and (max-width: 1137px) {
-	#description {padding-right: 7%
-		}
-
-	#projects {padding-left: 7%;
-		}
-	}
-
-@media only screen and (max-width: 830px) {
+/* RESPONSIVE - PROJECT PAGE */
 
 	#projects {display: none;
 		}
@@ -389,7 +306,60 @@ h4 {font-weight: 300;
 
 	}
 
+/* RESPONSIVE - GENEREAL & HOME PAGE */
+
 @media only screen and (max-width: 715px) {
+
+	h1 {padding-top: 1em;
+		padding-bottom: 1em;
+		}
+	
+	h2 {display: none;
+		}
+
+	h3 {font-size: 1.1em;
+		}
+
+	h4 {font-size: 1em;
+		}
+
+	#hr1 {display: none;
+		}
+
+	.row {float:left;
+		padding: 1em 0em 1em 0em;
+		width: 50%;
+		}
+
+	.row img {width: 80%
+		}
+
+	.footer {float: none;
+		margin: auto;
+		line-height: 2em;
+		padding: 1em 0;
+		}
+
+	#intouch {display: none;
+		}
+
+	#socialgroup {
+		width: 26%;
+		padding: 0em 0em 1em 0em;
+		}
+
+	#emailme {width: 33%;
+		padding-top: 2em;
+		}
+
+	.social {padding: 0 3%;
+		}
+
+	#copyright {text-align: center;
+		padding: 0;
+		}
+
+/* RESPONSIVE - PROJECT PAGE */
 
 	#projectnav {padding-left: 15%;
 		}
@@ -405,9 +375,28 @@ h4 {font-weight: 300;
 		padding: 1em 16% 1em 16%;
 		text-align: justify;
 		}
+
 	}
 
+/* RESPONSIVE - GENERAL & HOME PAGE */
+
 @media only screen and (max-width: 520px) {
+
+	.row {width: 100%;
+		margin: auto;
+			}
+
+	.row img {width: 70%
+		}
+
+	#emailme {width: 60%;
+		}
+
+	#socialgroup {
+		width: 50%;
+		}
+
+/* RESPONSIVE FOR PROJECT PAGE */
 
 	#projectnav {padding-left: 5%;
 		}
@@ -420,5 +409,39 @@ h4 {font-weight: 300;
 		padding: .5em 7% 1em 7%;
 
 	}
+
+
+/* RESPONSIVE - GENERAL & HOME */
+
+
+@media only screen and (max-width: 400px) {
+
+	h1 {padding: .75em 0;
+		}
+
+	nav {padding-bottom: 4em;
+		}
+
+
+	.row img{ width: 80%;
+		}
+
+	.row {padding: 1em 0 0 0;}
+		}
+
+	#hr2 {width: 10em;
+		}
+	}
+
+@media only screen and (max-width: 320px) {
+
+	.wrapper {width: 320px;
+		}
+
+	}
+
+
+
+
 
 
