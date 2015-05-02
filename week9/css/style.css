@@ -88,13 +88,13 @@ a:hover {color: #858585;
 	}
 
 @media only screen and (max-width: 468px) {
-	body {font-size: 17px;
+	body {font-size: 16px;
 	}
 	}
 
 @media only screen and (max-width: 320px) {
 
-	body {font-size: 18px;
+	body {font-size: 19px;
 	}
 
 	h1{font-size: 1.25em
