@@ -61,7 +61,7 @@ a:hover {color: #858585;
 @media only screen and (max-width:930px){
 
 	#wrapper {width: 31em;
-	padding: 4em 10% 5em;
+	padding: 3em 10% 5em;
 		}
 	}
 
@@ -70,12 +70,22 @@ a:hover {color: #858585;
 	#wrapper {width: 80%;
 	margin: 0;
 		}
+
+	h1 {
+	font-size: 1.25em;
+	height: 1.25em;
+	line-height: 1.75em;
+	padding-bottom: 0.3em;
+	}
+
+	h2 {font-size: 1.1em;
+	}
+	}
+
+@media only screen and (max-width: 468px) {
 	}
 
 @media only screen and (max-width: 320px) {
-
-	body{font-size: 20px;
-	}
 
 	h1{font-size: 1.25em
 	}
