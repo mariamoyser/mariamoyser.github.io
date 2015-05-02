@@ -90,6 +90,8 @@ a:hover {color: #858585;
 @media only screen and (max-width: 540px) {
 	body {font-size: 16px;
 	}
+	h1{background-color:black;
+	}
 	}
 
 @media only screen and (max-width: 320px) {
@@ -97,7 +99,8 @@ a:hover {color: #858585;
 	body {font-size: 19px;
 	}
 
-	h1{font-size: 1.25em
+	h1{font-size: 1.25em;
+		background-color: rgba(174, 174, 174, .95);
 	}
 
 	#wrapper {width: 320px;
