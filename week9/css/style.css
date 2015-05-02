@@ -81,30 +81,27 @@ a:hover {color: #858585;
 	height: 1.25em;
 	line-height: 1.75em;
 	padding-bottom: 0.3em;
-	}
+		}
 
 	h2 {font-size: 1.1em;
-	}
+		}
 	}
 
 /*can't get this media query to work when I view in landscape on my iphone 5 */
 
 @media only screen and (max-width: 600px) {
 	body {font-size: 16px;
-	}
-	h1{background-color:black;
-	}
-
+		}
 	}
 
 @media only screen and (max-width: 320px) {
 
 	body {font-size: 19px;
-	}
+		}
 
 	h1{font-size: 1.25em;
 
-	}
+		}
 
 	#wrapper {width: 320px;
 	padding-left: 5%;
