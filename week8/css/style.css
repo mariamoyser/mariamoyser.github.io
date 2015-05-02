@@ -114,7 +114,10 @@ h2 {font-size:1em;
 #emailme img {width: 10em;
 	}
 
-.social {padding: 0 2%;
+.social {padding: .3em 2% 0;
+	}
+
+#socialgroup img {width: 2em;
 	}
 
 #copyright {background-color: #b5b5b5;
@@ -378,6 +381,13 @@ h4 {font-weight: 300;
 
 	}
 
+@media only screen and (max-width: 570px) {
+
+	#socialgroup {
+		width: 50%;
+		}
+	}
+
 /* RESPONSIVE - GENERAL & HOME PAGE */
 
 @media only screen and (max-width: 520px) {
@@ -392,9 +402,6 @@ h4 {font-weight: 300;
 	#emailme {width: 60%;
 		}
 
-	#socialgroup {
-		width: 50%;
-		}
 
 /* RESPONSIVE FOR PROJECT PAGE */
 
