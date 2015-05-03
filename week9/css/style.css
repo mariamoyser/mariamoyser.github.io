@@ -80,18 +80,19 @@ a:hover {color: #858585;
 	height: 1.25em;
 	line-height: 1.75em;
 	padding-bottom: 0.3em;
-	}
+		}
 
 	h2 {font-size: 1.1em;
-	}
+		}
 	}
 
-@media only screen and (min-device-width : 320px) and (max-width: 568px) and (orientation : landscape) {
+@media only screen and (max-width: 568px) {
+	
 	body {font-size: 17px;
-	}
+		}
 	}
 
-@media only screen and (min-device-width : 320px) and (max-width: 568px) and (orientation : portrait){
+@media only screen and (max-width: 320px) {
 
 	h1{font-size: 1.25em
 	}
@@ -101,7 +102,7 @@ a:hover {color: #858585;
 	padding-right: 5%;
 		}
 	}
-*
+
 
 }
 
