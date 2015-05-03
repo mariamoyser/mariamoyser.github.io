@@ -86,12 +86,13 @@ a:hover {color: #858585;
 	}
 	}
 
+
 @media only screen and (max-width: 568px) {
 	body {font-size: 17px;
 	}
 	}
 
-@media only screen and (max-width: 320px) {
+/*@media only screen and (max-width: 320px) {
 
 	h1{font-size: 1.25em
 	}
@@ -101,7 +102,7 @@ a:hover {color: #858585;
 	padding-right: 5%;
 		}
 	}
-
+*/
 
 }
 
