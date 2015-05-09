@@ -58,6 +58,9 @@ a {text-decoration: none;
 a:hover {color: #858585;
 	}
 
+.fa {padding-right: .5em;
+	}
+
 
 /* RESPONSIVE */
 
