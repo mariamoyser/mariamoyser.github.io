@@ -1,0 +1,550 @@
+/* GENERAL + HOME PAGE */
+
+body {font-size:18px;
+	font-family: 'Sorts Mill Goudy', serif;
+	background-color: #c8cece;
+	color: #2a1f22;
+	text-align: center;
+		}
+	
+#wrapper {width: 1025px;
+	margin:auto;
+	background-color: #f5f5f5;
+		}
+	
+header {
+	background-image: url("../images/forest.jpg");
+	background-color: #125c82;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 22em;
+		}
+
+h1 a {text-decoration: none;
+	color: #bad6dc;
+	font-size: 6em;
+		}
+	
+h1 {font-family: 'Flamenco', sans-serif;
+	padding-top: 7em;
+	letter-spacing: 0.07em;
+		}
+	
+h2 {font-family: 'Sorts Mill Goudy', serif;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	color: #bad6cd;
+	font-size: 1.5em;
+	font-style: italic;	
+	letter-spacing: 0.07em;
+		}
+
+nav {background-color: #2a1f22;
+		}
+	
+nav a {display: inline-block;
+	color: #f2f7f8;
+	text-decoration: none;
+	width: 24%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	padding-top: 1.3em;
+	padding-bottom: 1.3em;
+	letter-spacing: 0.07em;
+		}
+	
+#current {color: #cecc2e;
+		}
+	
+.clearfix:after {visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+		}
+	
+footer {clear:both;
+	color: #f2f7f8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: .75em;
+	background-color: #2a1f22;
+	letter-spacing: 0.07em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+		}
+	
+#content {clear:both;
+	margin:50px;
+	}
+	
+.poems {width:13em;
+	border-style: dotted;
+	border-width: 0.15em;
+	float:left;
+	margin: 35px;
+		}
+		
+.poems img {width:100%;
+padding: 28% 0;
+		}
+	
+/* POEM PAGES */
+
+
+#poem-page header {height: 100px;
+		}
+
+#poem-page h1 a {font-size: 2em;
+	font-weight: light;
+		}
+	
+#poem-page h1 {padding-top: 1.75em;
+	padding-left:9.5%;
+	float: left;
+		}
+
+#poem-page h1 span {font-size: 0.8em;
+	padding-left: 0.5em;
+		}
+	
+#poem-page h2 {font-size: 1.65em;
+	padding-top: 1.27em;
+	padding-bottom: 0;
+	float: left;
+	padding-left: 0.6em;
+		}
+
+#poem-page nav {clear: both;
+		}
+
+#poem-page #wrapper {background-color: #97a9ad;
+		}
+		
+#poem-wrapper {width:914px;
+	margin: 0 auto;
+		}
+
+#poem-title img {width: 250px;
+		}
+		
+#poem-title-short img {width: 250px;
+		}	
+		
+#poem-title-short {height: 100px;
+	overflow: hidden;
+	}	
+		
+hr {border-top:0.15em dotted;
+	width: 12em;
+	margin-bottom: 1.5em;
+		}
+
+#poem-content {margin: 5em auto 7em;
+	line-height: 1.8em;
+	background-color: #f5f5f5;
+	float:left;
+	width: 550px;
+	padding: 5em 4em 8em;
+		}
+		
+#spacing {padding-bottom:1em;
+		}
+		
+#arrow-left a {float:left;
+	font-size: 2.5em;
+	padding: 9em 1em 0;
+	font-family: 'Flamenco', serif;
+	color:#f5f5f5;
+	text-decoration: none;
+		}
+
+#arrow-right a {float:left;
+	font-size: 2.5em;
+	padding: 9em 1em 0;
+	font-family: 'Flamenco', serif;
+	color:#f5f5f5;
+	text-decoration: none;
+		}
+
+#arrow-set {display:none;
+		}
+		
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1025px){
+	#wrapper {width: 100%;
+	margin: 0;
+		}
+
+	#content {width:90%;
+	margin: 50px auto;
+		}
+	
+	.poems {width:28%;
+	margin: 2.4%;
+		}	
+	}
+	
+@media only screen and (max-width: 930px){
+	header {height: 20em;
+		}
+
+	h1 {padding-top: 6em;
+		}
+
+	#content {width:95%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+		}
+	.poems {width:26%;
+	margin: 3.25%;
+		}
+	
+	/* poem pages - responsive */
+
+	#arrow-left a {display:none;
+		}
+	#arrow-right a {display:none;
+		}
+
+	#arrow-set {display:block;
+	padding: 2em 0 0em 80%;
+		} 
+
+	#arrow-set a {
+	font-size: 2em;
+	font-family: 'Flamenco', serif;
+	color:#f5f5f5;
+	text-decoration: none;
+		}
+		
+	#spacer{width: 3em;
+		display: inline-block;
+		}
+
+	#poem-wrapper {width:694px;
+	margin: 0 auto;
+		}
+
+	#poem-content {margin: 1em auto 4em;
+		}
+	}
+	
+@media only screen and (max-width: 850px){
+	header {height: 18em;
+		}
+		
+	h1 {padding-top: 5em;
+		}
+		
+	h1 a {font-size: 5em;
+		}
+		
+	nav a {padding-top: 1.1em;
+	padding-bottom: 1.1em;
+		}
+
+	/* poem page - responsive */
+
+	#poem-wrapper {width:622px;
+		}
+
+	#poem-content {
+	padding: 5em 2em 8em;
+		}
+	}
+			
+@media only screen and (max-width: 730px){
+	header {height: 16em;
+		}
+		
+	h1 {padding-top: 4.5em;
+		}
+		
+	h1 a {font-size: 4.5em;
+		}
+		
+	nav a {padding-top: 1em;
+	padding-bottom: 1em;
+		}
+	
+	#content {margin-top: 20px;
+	margin-bottom:20px;
+		}
+	}
+	
+@media only screen and (max-width: 675px){
+	header {height: 15em;
+		}
+		
+	h1 {padding-top: 4.25em;
+		}
+		
+	h1 a {font-size: 4.25em;
+		}
+		
+	h2 {font-size: 1.25em;
+		}
+		
+	nav a {padding-top: .8em;
+	padding-bottom: .8em;
+		}
+
+	/* poem pages - responsive*/
+
+	#poem-page h1 {padding-left:9%;
+		}
+	}
+
+@media only screen and (max-width: 650px){
+
+	#poem-wrapper {width:100%;
+		}
+		
+	/* poem page - responsive */
+		
+	#poem-content {width:100%;
+	padding: 5em 0.5em 8em;
+		}
+		
+	#arrow-set {padding: 1em 0 0em 73%;
+		}
+	}
+
+@media only screen and (max-width: 590px){
+	header {height: 13em;
+		}
+
+	h1 {padding-top: 3.5em;
+		}
+		
+	h1 a {font-size: 3.5em;
+		}
+		
+	nav a {padding-top: .7em;
+	padding-bottom: .7em;
+		}
+
+	/* poem page - responsive */
+
+	#poem-page h1 {padding-left: 0;
+		}
+
+	#poem-page header div {width: 345.5px;
+		margin: auto;
+		}
+	}
+	
+@media only screen and (max-width: 550px){
+		
+	nav a {font-size:.9em;
+		}
+		
+	.poems {width: 39%;
+	margin: 5%;
+		}
+		
+	/* poem page - responsive */
+		
+	#poem-content {margin: 0.75em auto 4em;
+		}
+		
+	#arrow-set a {font-size: 1.5em;
+		}
+				
+	#arrow-set {padding: 0.75em 0 0em 74%;
+		}
+	}
+		
+@media only screen and (max-width: 500px){
+	header {height: 12em;
+		}
+
+	h1 {padding-top: 3.25em;
+		}
+		
+	h1 a {font-size: 3.25em;
+		}
+		
+	#content {margin-top: 10px;
+	margin-bottom:10px;
+		}
+		
+		/* poem page - responsive */
+	
+	#poem-content {font-size: 0.9em;
+	
+	}
+	
+@media only screen and (max-width: 468px){
+		
+	h2 {padding-top: 1em;
+		}
+	
+	/* poem page - responsive */
+	
+	#poem-content {padding: 2em 0.2em 3em;
+		}	
+	
+	}
+	
+@media only screen and (max-width: 434px){
+	header {height: 10em;
+		}
+
+	h1 {padding-top: 2.75em;
+		}
+		
+	h1 a {font-size: 2.75em;
+		}
+
+	.poems {width: 38%;
+	margin: 5.25%;
+		}
+		
+	/* poem page - responsive */	
+		
+	#poem-content{font-size: .8em;
+	padding: 2em .1em 3em;
+		}
+		
+	}
+
+
+@media only screen and (max-width: 400px){
+	header {height: 10em;
+		}
+		
+	h1 a {font-size: 2.5em;
+		}
+	
+	nav a {font-size:.8em;
+		}
+	
+	.poems {width: 41%;
+	margin: 3.75%;
+		}
+
+	/* poem page - responsive */
+
+	#poem-page header div {width: 305px;
+		}
+
+	#poem-page h1 a {font-size: 1.75em;
+		}
+	
+	#poem-page h1 {padding-top: 2em;
+		}
+
+	#poem-page h2 {font-size: 1.45em;
+	padding-top: 1.58em;
+		}
+		
+	#arrow-set {padding: 0.75em 0 0em 70%;
+		}
+		
+	#spacer{width: 2.5em;
+		display: inline-block;
+		}
+	}
+
+@media only screen and (max-width: 390px){	
+#tide {width: 385px;
+		}
+	}
+	
+@media only screen and (max-width: 351px){
+	header {height: 8.25em;
+		}
+
+	h1 {padding-top: 2.25em;
+		}
+		
+	h1 a {font-size: 2.25em;
+		}
+			
+	h2 {font-size: 1.1em;
+	padding-top: 0.75em;
+		}
+		
+	nav a {font-size: .7em;
+	width:23%;
+	padding: .7em 0%;
+		}
+		
+
+	/* poem page - responsive */
+
+	#poem-page header div {width: 269.5px;
+		}
+
+	#poem-page h1 a {font-size: 1.5em;
+		}
+
+	#poem-page h2 {font-size: 1.3em;
+	padding-top: 1.67em;
+	padding-left: 0.6em;
+		}
+	
+	#arrow-set {padding: 0.75em 0 0em 65%;
+		} 
+		
+	#arrow-set a {font-size: 1.5em;
+		}
+	}
+	
+@media only screen and (max-width: 320px){
+	header {height: 7.5em;
+		}
+		
+	h1 {padding-top: 2em;
+		}
+		
+	h1 a {font-weight: light;
+		}
+	
+	#content {width:100%;
+	margin-top: 0;
+	margin-bottom: 30px;
+	margin-left:0%;
+	margin-right:0%;
+		}
+
+	.poems {border-top:none;
+	border-right:none;
+	border-left:none;
+	width: 240px;
+	height:120px;
+	margin-left:40px;
+	margin-right: 40px;
+		}
+		
+	.poems img {padding-top: 0;
+		}
+		
+	/* poem page - responsive */
+	
+	#arrow-set {padding: 0.5em 0 0em 60%;
+		}
+		
+	#poem-content {margin: 0.5em auto 4em;
+	padding: 1.25em 0.1em 3em;
+		} 
+		
+
+	}
+
+@media only screen and (max-width: 320px){
+	#wrapper {width:320px;
+		}
+	}
+
+
+	
+
+	
+		
