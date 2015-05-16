@@ -82,7 +82,7 @@ footer {clear:both;
 	
 .poems {width:13em;
 	border-style: dotted;
-	border-width: 0.15em;
+	border-width: 0.1em;
 	float:left;
 	margin: 35px;
 		}
@@ -137,7 +137,7 @@ padding: 28% 0;
 	overflow: hidden;
 	}	
 		
-hr {border-top:0.15em dotted;
+hr {border-top:0.1em dotted;
 	width: 12em;
 	margin-bottom: 1.25em;
 		}
@@ -155,7 +155,8 @@ hr {border-top:0.15em dotted;
 		
 #arrow-left a {float:left;
 	font-size: 2.5em;
-	padding: 9em 1em 0;
+	margin-top: 8em;
+	padding: 1em 1em 1em;
 	font-family: 'Flamenco', serif;
 	color:#f5f5f5;
 	text-decoration: none;
@@ -163,7 +164,8 @@ hr {border-top:0.15em dotted;
 
 #arrow-right a {float:left;
 	font-size: 2.5em;
-	padding: 9em 1em 0;
+	margin-top: 8em;
+	padding: 1em 1em 1em;
 	font-family: 'Flamenco', serif;
 	color:#f5f5f5;
 	text-decoration: none;
@@ -212,17 +214,19 @@ hr {border-top:0.15em dotted;
 		}
 
 	#arrow-set {display:block;
-	padding: 2em 0 0em 80%;
+	padding: 2em 0 0;
+	margin-left:70%;
 		} 
 
-	#arrow-set a {
+	#arrow-set a {display:inline-block;
 	font-size: 2em;
+	padding: 0 1em 0;
 	font-family: 'Flamenco', serif;
 	color:#f5f5f5;
 	text-decoration: none;
 		}
 		
-	#spacer{width: 3em;
+	#spacer{width: 0.5em;
 		display: inline-block;
 		}
 
@@ -256,6 +260,10 @@ hr {border-top:0.15em dotted;
 	#poem-content {
 	padding: 5em 2em 8em;
 		}
+
+	#arrow-set {margin-left:60%;
+		} 
+
 	}
 			
 @media only screen and (max-width: 730px){
@@ -290,9 +298,6 @@ hr {border-top:0.15em dotted;
 	h2 {font-size: 1.25em;
 		}
 		
-	nav a {padding-top: .8em;
-	padding-bottom: .8em;
-		}
 
 	/* poem pages - responsive*/
 
@@ -311,8 +316,9 @@ hr {border-top:0.15em dotted;
 	padding: 5em 0.5em 8em;
 		}
 		
-	#arrow-set {padding: 1em 0 0em 73%;
-		}
+	#arrow-set {margin-left:60%;
+		} 
+
 	}
 
 @media only screen and (max-width: 590px){
@@ -325,9 +331,6 @@ hr {border-top:0.15em dotted;
 	h1 a {font-size: 3.5em;
 		}
 		
-	nav a {padding-top: .7em;
-	padding-bottom: .7em;
-		}
 
 	/* poem page - responsive */
 
@@ -341,9 +344,6 @@ hr {border-top:0.15em dotted;
 	
 @media only screen and (max-width: 550px){
 		
-	nav a {font-size:.9em;
-		}
-		
 	.poems {width: 39%;
 	margin: 5%;
 		border-width: 0.1em;
@@ -354,11 +354,12 @@ hr {border-top:0.15em dotted;
 	#poem-content {margin: 0.75em auto 4em;
 		}
 		
-	#arrow-set a {font-size: 1.5em;
+	#arrow-set a {font-size: 1.75em;
 		}
 				
-	#arrow-set {padding: 0.75em 0 0em 74%;
-		}
+	#arrow-set {margin-left:60%;
+	padding: 1em 0 0;
+		} 
 	}
 		
 @media only screen and (max-width: 500px){
@@ -412,6 +413,14 @@ hr {border-top:0.15em dotted;
 	#poem-content{font-size: .8em;
 	padding: 2em .1em 3em;
 		}
+
+	#arrow-set {margin-left: 55%;
+		} 
+
+	#spacer{width: .25em;
+		display: inline-block;
+		}
+
 		
 	}
 
@@ -442,15 +451,18 @@ hr {border-top:0.15em dotted;
 		}
 
 	#poem-page h2 {font-size: 1.45em;
-	padding-top: 1.58em;
+		padding-top: 1.58em;
 		}
+	
+	#arrow-set a {font-size: 1.75em;
+		padding: 0 .75em 0;
+		}
+				
+	#arrow-set {margin-left:50%;
+		padding: 1em 0 0;
+		} 
 		
-	#arrow-set {padding: 0.75em 0 0em 70%;
-		}
-		
-	#spacer{width: 2.5em;
-		display: inline-block;
-		}
+
 	}
 
 @media only screen and (max-width: 390px){	
@@ -472,9 +484,10 @@ hr {border-top:0.15em dotted;
 	padding-top: 0.75em;
 		}
 		
-	nav a {font-size: .7em;
+	nav a {font-size: .75em;
 	width:23%;
-	padding: .7em 0%;
+	padding-left: 0%;
+	padding-right: 0%;
 		}
 		
 
@@ -491,11 +504,12 @@ hr {border-top:0.15em dotted;
 	padding-left: 0.6em;
 		}
 	
-	#arrow-set {padding: 0.75em 0 0em 65%;
-		} 
-		
-	#arrow-set a {font-size: 1.5em;
+	#arrow-set a {font-size: 1.75em;
 		}
+				
+	#arrow-set {margin-left:45%;
+	padding: 1em 0 0;
+		} 
 	}
 	
 @media only screen and (max-width: 320px){
@@ -526,17 +540,14 @@ hr {border-top:0.15em dotted;
 		}
 		
 	.poems img {width:100%;
-	padding: 14% 0;
+	padding: 14% 0;}
 		
 	/* poem page - responsive */
-	
-	#arrow-set {padding: 0.5em 0 0em 60%;
-		}
+
 		
 	#poem-content {margin: 0.5em auto 4em;
 	padding: 1.25em 0.1em 3em;
-		} 
-		
+		} 	
 
 	}
 
