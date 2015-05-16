@@ -522,11 +522,11 @@ hr {border-top:0.1em dotted;
 	h1 a {font-weight: light;
 		}
 	
-	#content {width:100%;
+	#content {width:98%;
 	margin-top: 0;
 	margin-bottom: 30px;
-	margin-left:0%;
-	margin-right:0%;
+	margin-left:1%;
+	margin-right:1%;
 		}
 
 	.poems {border-top:none;
@@ -545,9 +545,10 @@ hr {border-top:0.1em dotted;
 	/* poem page - responsive */
 
 		
-	#poem-content {margin: 0.5em auto 4em;
-	padding: 1.25em 0.1em 3em;
+	#poem-content {padding: 1.25em 0.1em 3em;
 		} 	
+
+
 
 	}
 
