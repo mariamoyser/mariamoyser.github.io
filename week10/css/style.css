@@ -81,7 +81,8 @@ footer {clear:both;
 	}
 	
 .poems {width:13em;
-	border-style: dotted;
+	border-style: solid;
+	border-color: #97a9ad;
 	border-width: 0.1em;
 	float:left;
 	margin: 35px;
@@ -137,9 +138,10 @@ padding: 28% 0;
 	overflow: hidden;
 	}	
 		
-hr {border-top:0.1em dotted;
+hr {border-top:0.1em solid;
 	width: 12em;
 	margin-bottom: 1.25em;
+	color: #97a9ad;
 		}
 
 #poem-content {margin: 5em auto 7em;
