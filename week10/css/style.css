@@ -342,6 +342,9 @@ hr {border-top:0.1em solid;
 	#poem-page header div {width: 345.5px;
 		margin: auto;
 		}
+
+	#tide {font-size: 0.75em;
+		}
 	}
 	
 @media only screen and (max-width: 550px){
@@ -466,6 +469,7 @@ hr {border-top:0.1em solid;
 	}
 
 @media only screen and (max-width: 390px){	
+
 #tide {font-size: 0.75em;
 		}
 	}
