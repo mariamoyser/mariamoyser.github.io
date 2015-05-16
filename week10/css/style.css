@@ -139,7 +139,7 @@ padding: 28% 0;
 		
 hr {border-top:0.15em dotted;
 	width: 12em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.25em;
 		}
 
 #poem-content {margin: 5em auto 7em;
@@ -346,6 +346,7 @@ hr {border-top:0.15em dotted;
 		
 	.poems {width: 39%;
 	margin: 5%;
+		border-width: 0.1em;
 		}
 		
 	/* poem page - responsive */
@@ -454,7 +455,6 @@ hr {border-top:0.15em dotted;
 
 @media only screen and (max-width: 390px){	
 #tide {width: 385px;
-	overflow: scroll;
 		}
 	}
 	
@@ -518,14 +518,15 @@ hr {border-top:0.15em dotted;
 	.poems {border-top:none;
 	border-right:none;
 	border-left:none;
-	width: 240px;
-	height:120px;
-	margin-left:40px;
-	margin-right: 40px;
+	border-bottom-width: 0.1em;
+	width: 220px;
+	padding: 0;
+
+	margin: 0 50px 0;
 		}
 		
-	.poems img {padding-top: 0;
-		}
+	.poems img {width:100%;
+	padding: 14% 0;
 		
 	/* poem page - responsive */
 	
