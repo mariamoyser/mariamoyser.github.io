@@ -313,7 +313,7 @@ hr {border-top:0.1em dotted;
 	/* poem page - responsive */
 		
 	#poem-content {width:100%;
-	padding: 5em 0.5em 8em;
+	padding: 5em 0.5em 6em;
 		}
 		
 	#arrow-set {margin-left:60%;
@@ -351,8 +351,6 @@ hr {border-top:0.1em dotted;
 		
 	/* poem page - responsive */
 		
-	#poem-content {margin: 1.25em auto 4em;
-		}
 		
 	#arrow-set a {font-size: 1.75em;
 		}
@@ -389,7 +387,7 @@ hr {border-top:0.1em dotted;
 	
 	/* poem page - responsive */
 	
-	#poem-content {padding: 2em 0.2em 3em;
+	#poem-content {padding: 5em 0.2em 3em;
 		}	
 	
 	}
@@ -411,7 +409,7 @@ hr {border-top:0.1em dotted;
 	/* poem page - responsive */	
 		
 	#poem-content{font-size: .8em;
-	padding: 2em .1em 3em;
+	padding: 4em .1em 3em;
 		}
 
 	#arrow-set {margin-left: 55%;
@@ -545,10 +543,8 @@ hr {border-top:0.1em dotted;
 	/* poem page - responsive */
 
 		
-	#poem-content {padding: 1.25em 0.1em 3em;
+	#poem-content {padding: 2em 0.1em 3em;
 		} 	
-
-
 
 	}
 
