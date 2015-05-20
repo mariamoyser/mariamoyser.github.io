@@ -167,6 +167,9 @@ hr {border: 1px solid;
 		
 .spacing {padding-top: 1em;
 		}
+
+.break {display: none;
+	}
 		
 #arrow-left a {float:left;
 	font-size: 2.5em;
@@ -486,15 +489,8 @@ hr {border: 1px solid;
 
 @media only screen and (max-width: 390px){
 
-	#tide {width: 100%;
-
+.break {display: block;
 		}
-
-	#tide #poem-content{width: 100%;
-
-		}
-		
-
 
 	}
 
