@@ -356,9 +356,6 @@ hr {border: 1px solid;
 		margin: auto;
 		}
 
-	/* #tide {font-size: 0.73em;*/
-		}
-
 	}
 	
 @media only screen and (max-width: 550px){
@@ -445,7 +442,6 @@ hr {border: 1px solid;
 	#spacer{width: .25em;
 		display: inline-block;
 		}
-
 		
 	}
 
@@ -486,10 +482,9 @@ hr {border: 1px solid;
 	#arrow-set {margin-left:50%;
 		padding: .7em 0 0;
 		} 
-		
-
 	}
-	
+
+		
 @media only screen and (max-width: 351px){
 	header {height: 8.25em;
 		}
@@ -572,10 +567,6 @@ hr {border: 1px solid;
 	#poem-content {padding: 2em 0.1em 3em;
 		} 	
 		
-	#tide, #stone {display: none;
-		}
-		
-
 	}
 
 @media only screen and (max-width: 320px){
