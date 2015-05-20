@@ -5,6 +5,7 @@ body {font-size:18px;
 	background-color: #c8cece;
 	color: #2a1f22;
 	text-align: center;
+	-webkit-text-size-adjust: 100%;
 		}
 	
 #wrapper {width: 1025px;
