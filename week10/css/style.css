@@ -159,7 +159,8 @@ padding: 28% 0;
 	padding: 5em 4em 8em;
 		}
 		
-.spacing {padding-top: 1em;
+.spacing {display: block;
+	padding-top: 1em;
 		}
 
 .break {display: none;
