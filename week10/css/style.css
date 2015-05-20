@@ -485,7 +485,11 @@ hr {border: 1px solid;
 	}
 
 @media only screen and (max-width: 390px){
+	#tide {width: 100%;
+		}
+
 	#tide #poem-content{width: 390px;
+		overflow-x: auto;
 		}
 
 
