@@ -391,6 +391,14 @@ hr {border: 1px solid;
 	#content {margin-top: 10px;
 	margin-bottom:10px;
 		}
+
+	#arrow-set {margin-left:55%;
+	padding: 1em 0 0;
+		} 
+
+	#spacer{width: .35em;
+		display: inline-block;
+		}
 		
 		/* poem page - responsive */
 	
@@ -430,7 +438,8 @@ hr {border: 1px solid;
 	padding: 3em .1em 4em;
 		}
 
-	#arrow-set {margin-left: 55%;
+	#arrow-set {margin-left:50%;
+	padding: 1em 0 0;
 		} 
 
 	#spacer{width: .25em;
