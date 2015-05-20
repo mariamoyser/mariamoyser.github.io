@@ -5,7 +5,6 @@ body {font-size:18px;
 	background-color: #c8cece;
 	color: #2a1f22;
 	text-align: center;
-	-webkit-text-size-adjust: none;
 		}
 	
 #wrapper {width: 1025px;
@@ -84,13 +83,19 @@ footer {clear:both;
 .poems {width:13em;
 	border-style: solid;
 	border-color: #97a9ad;
-	border-width: 0.1em;
+	border-width: 0em;
 	float:left;
 	margin: 35px;
+	background-image: url("../images/dotted-border.gif");
+	background-size: 100%;
+	background-repeat: no-repeat;
 		}
 		
 .poems img {width:100%;
 padding: 28% 0;
+		}
+		
+#home .dotted-line {display:none
 		}
 	
 /* POEM PAGES */
@@ -145,7 +150,12 @@ hr {border: 1px solid;
 	margin-bottom: 1.25em;
 	color: #97a9ad;
 		}
-
+			
+.dotted-line {
+	width: 12em;
+	margin-bottom: 1em;
+	margin-top: 0.7em;
+		}
 #poem-content {margin: 5em auto 7em;
 	line-height: 1.8em;
 	background-color: #f5f5f5;
@@ -154,7 +164,7 @@ hr {border: 1px solid;
 	padding: 5em 4em 8em;
 		}
 		
-#spacing {padding-top: 1em;
+.spacing {padding-top: 1em;
 		}
 		
 #arrow-left a {float:left;
@@ -345,7 +355,7 @@ hr {border: 1px solid;
 		margin: auto;
 		}
 
-	#tide {font-size: 0.73em;
+	/* #tide {font-size: 0.73em;*/
 		}
 
 	}
@@ -354,7 +364,6 @@ hr {border: 1px solid;
 		
 	.poems {width: 39%;
 	margin: 5%;
-		border-width: 0.1em;
 		}
 		
 	/* poem page - responsive */
@@ -470,15 +479,6 @@ hr {border: 1px solid;
 		
 
 	}
-
-@media only screen and (max-width: 390px){	
-
-#tide{font-size: 0.75em;
-		}
-
-#stone {font-size: 0.85em;
-		}
-	}
 	
 @media only screen and (max-width: 351px){
 	header {height: 8.25em;
@@ -498,8 +498,7 @@ hr {border: 1px solid;
 	width:23%;
 	padding-left: 0%;
 	padding-right: 0%;
-		}
-		
+		}		
 
 	/* poem page - responsive */
 
@@ -542,21 +541,30 @@ hr {border: 1px solid;
 	.poems {border-top:none;
 	border-right:none;
 	border-left:none;
-	border-bottom-width: 0.1em;
+	border-bottom:none;
 	width: 220px;
 	padding: 0;
-
+	background-image: none;
 	margin: 0 50px 0;
 		}
 		
 	.poems img {width:100%;
 	padding: 14% 0;}
+	
+	#home .dotted-line {display:block;
+	width: 12em;
+	margin: 0 auto;
+		}
 		
 	/* poem page - responsive */
 
 		
 	#poem-content {padding: 2em 0.1em 3em;
 		} 	
+		
+	#tide, #stone {display: none;
+		}
+		
 
 	}
 
