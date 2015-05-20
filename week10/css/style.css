@@ -484,6 +484,14 @@ hr {border: 1px solid;
 		} 
 	}
 
+@media only screen and (max-width: 390px){
+	#tide #poem-content{width: 390px;
+		overflow: scroll;
+		}
+
+
+	}
+
 		
 @media only screen and (max-width: 351px){
 	header {height: 8.25em;
