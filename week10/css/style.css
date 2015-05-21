@@ -397,8 +397,9 @@ padding: 28% 0;
 		/* poem page - responsive */
 	
 	#poem-content {font-size: 0.9em;
-	
+		}
 	}
+
 	
 @media only screen and (max-width: 468px){
 		
