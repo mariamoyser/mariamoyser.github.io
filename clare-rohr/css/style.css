@@ -1,4 +1,3 @@
-
 body {background-color: #ebeaea;
 	color:#434444;
 	font-size: 18px;
@@ -8,18 +7,20 @@ body {background-color: #ebeaea;
 	line-height: 1.5em;
 	}
 
-.wrapper {
-	width: 57em;
+.wrapper {width: 80%;
 	margin: 0 auto;
 	background-color: #f7f7f7;
 	}
 
 header {background-image: url("../images/header-img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	}
 
 /* NAVIGATION BAR */
 
 nav {font-size: 1em;
+	padding-bottom: 5em;
 	}
 
 nav a {background-color: #434444;
@@ -29,7 +30,7 @@ nav a {background-color: #434444;
 	float: left;
 	line-height: 2.5em;
 	font-weight: 300;
-	width: 14.25em;
+	width: 25%;
 	margin: ;
 	}
 
@@ -74,12 +75,11 @@ h1 a:hover {color: #f7f7f7;
 h2 {font-size:1em;
 	font-weight: 300;
 	color:#f7f7f7;
-	padding-right:10.5em;
-	padding-left:10.5em;
+	width:36em;
 	padding-top: 1em; 
 	padding-bottom: 4em;
 	text-align: center;
-	margin: 0;
+	margin: 0 auto;
 	}
 
 /* HORIZONTAL RULE BELOW BODY */
@@ -99,38 +99,41 @@ h2 {font-size:1em;
 	padding: 3em 0 3em 0;
 	}
 
-#intouch {padding-left: 4em;
-	width: 15em;
+#intouch {padding-left: 7%;
+	width: 26%;
 	}
 
-#socialgroup {padding-right: 4em;
-	width: 15em;
+#socialgroup {padding-right: 5%;
+	width: 26%;
 	}
 
-#emailme {width: 19em;
+#emailme {width: 33%;
 	}
 
-.social {padding: 0 .25em;
+#emailme img {width: 10em;
 	}
 
-#copyright {
-	background-color: #b5b5b5;
+.social {padding: .3em 2% 0;
+	}
+
+#socialgroup img {width: 2em;
+	}
+
+#copyright {background-color: #b5b5b5;
 	color: #f7f7f7;
 	text-align: right;
 	font-size: .9em;
 	margin: 0;
-	padding-right: 8.5em;
+	padding-right: 14%;
 	line-height: 2em;
 	clear: both;
 	}
 
 /* home page - thumbnail images */
 
-.row1 img {width: 63%;
+.row img {width: 70%;
 	}
 
-.row2 img {width: 63%;
-	}
 
 /* home page - thumbnail titles */
 
@@ -154,8 +157,7 @@ h4 {font-weight: 300;
 
 /* home page - thumbnails */
 
-.clearfix:after {
-	visibility: hidden;
+.clearfix:after {visibility: hidden;
 	display: block;
 	font-size: 0;
 	content: " ";
@@ -163,20 +165,13 @@ h4 {font-weight: 300;
 	height: 0;
 	}
 
-.row1 {float:left;
-	padding: 5em 0em 2.5em 0em;
-	width: 19em;
-	}
+.clearfix {width: 90%;
+	margin: auto;
+}
 
-.leftpad {padding-left: 4em;
-	}
-
-.rightpad {padding-right: 4em;
-	}
-
-.row2 {float:left;
-	padding: 1em 0em 3em 0em;
-	width: 19em;
+.row {float:left;
+	padding: 1em 0em 1em 0em;
+	width: 33%;
 	}
 
 .link {font-weight: 400;
@@ -199,28 +194,36 @@ h4 {font-weight: 300;
 	text-align: left;
 	}
 
+#projectnav
+	{display:none;
+	}
+
 /* project page - container for project links */
 
 #projects {float:left;
-	padding-left: 5em;
-	padding-top: 5em;
+	padding-left: 9%;
+	padding-top: 1em;
 	}
 
 /* project page - container for project image */
 
 #projectimg {float:left;
-	padding-top: 5em;
-	padding-left:4em;
+	padding-top: 1em;
+	padding-left: 5%;
 	padding-bottom: 4em;
+	width: 45%;
+	}
+
+#projectimg img {width: 100%;
 	}
 
 /* project page - container for description */
 
 #description {float:right;
-	width: 20%;
+	width: 11em;
 	text-align: left;
-	padding-top: 5em;
-	padding-right: 4em;
+	padding-top: 1em;
+	padding-right: 8%;
 	margin-top: .5em;
 	}
 
@@ -228,6 +231,223 @@ h4 {font-weight: 300;
 
 #highlight {background-color: #d7e3e8;
 	}
+
+/* RESPONSIVE */	
+
+/* RESPONSIVE - PROJECT PAGE */
+
+@media only screen and (max-width: 1137px) {
+	#description {padding-right: 7%
+		}
+
+	#projects {padding-left: 7%;
+		}
+	}
+
+/* RESPONSIVE - GENERAL & HOME PAGE */
+
+@media only screen and (min-width: 1025px) {
+	.wrapper {width: 1026px;
+		}
+	}
+
+@media only screen and (max-width: 1025px) {
+
+	.wrapper {width: 100%;
+	}
+
+	h1 {padding-top: 1.25em;
+		padding-bottom: .7em;
+	}
+
+	h2 {font-size: .95em;
+		padding-top: .4em;
+		padding-bottom: 2em;
+		}
+
+	}
+
+/* RESPONSIVE - HOME PAGE */
+
+@media only screen and (max-width: 830px) {
+
+	.row img {width: 80%
+		}
+
+/* RESPONSIVE - PROJECT PAGE */
+
+	#projects {display: none;
+		}
+
+	#projectnav {display:block;
+		text-align: left;
+		padding: 0 0 1em 8%;
+		}
+
+	.clickthru {font-style: italic;
+		}
+
+	#projectnav a {text-decoration: none;
+		color: #434444;
+		}
+
+	#projectimg {float:left;
+		padding-top: 1em;
+		padding-left: 8%;
+		padding-bottom: 4em;
+		width: 50%;
+		}
+
+	#description {float:right;
+		width: 11em;
+		text-align: left;
+		padding-top: 1em;
+		padding-right: 8%;
+		margin-top: .5em;
+		}
+
+	}
+
+/* RESPONSIVE - GENEREAL & HOME PAGE */
+
+@media only screen and (max-width: 715px) {
+
+	h1 {padding-top: 1em;
+		padding-bottom: 1em;
+		}
+	
+	h2 {display: none;
+		}
+
+	h3 {font-size: 1.1em;
+		}
+
+	h4 {font-size: 1em;
+		}
+
+	#hr1 {display: none;
+		}
+
+	.row {float:left;
+		padding: 1em 0em 1em 0em;
+		width: 50%;
+		}
+
+	.row img {width: 80%
+		}
+
+	.footer {float: none;
+		margin: auto;
+		line-height: 2em;
+		padding: 1em 0;
+		}
+
+	#intouch {display: none;
+		}
+
+	#socialgroup {
+		width: 26%;
+		padding: 0em 0em 1em 0em;
+		}
+
+	#emailme {width: 33%;
+		padding-top: 2em;
+		}
+
+	.social {padding: 0 3%;
+		}
+
+	#copyright {text-align: center;
+		padding: 0;
+		}
+
+/* RESPONSIVE - PROJECT PAGE */
+
+	#projectnav {padding-left: 15%;
+		}
+
+	#projectimg {padding: 1em 0 1em;
+		width: 100%;
+		}
+
+	#projectimg img {width: 70%;
+		}
+
+	#description {width: 68%;
+		padding: 1em 16% 1em 16%;
+		text-align: justify;
+		}
+
+	}
+
+@media only screen and (max-width: 570px) {
+
+	#socialgroup {
+		width: 50%;
+		}
+	}
+
+/* RESPONSIVE - GENERAL & HOME PAGE */
+
+@media only screen and (max-width: 520px) {
+
+	.row {width: 100%;
+		margin: auto;
+			}
+
+	.row img {width: 70%
+		}
+
+	#emailme {width: 60%;
+		}
+
+
+/* RESPONSIVE FOR PROJECT PAGE */
+
+	#projectnav {padding-left: 5%;
+		}
+
+	#projectimg img {width: 90%;
+		}
+
+	#description {
+		width: 86%;
+		padding: .5em 7% 1em 7%;
+
+	}
+
+
+/* RESPONSIVE - GENERAL & HOME */
+
+
+@media only screen and (max-width: 400px) {
+
+	h1 {padding: .75em 0;
+		}
+
+	nav {padding-bottom: 4em;
+		}
+
+
+	.row img{ width: 80%;
+		}
+
+	.row {padding: 1em 0 0 0;}
+		}
+
+	#hr2 {width: 10em;
+		}
+	}
+
+@media only screen and (max-width: 320px) {
+
+	.wrapper {width: 320px;
+		}
+
+	}
+
+
+
 
 
 
